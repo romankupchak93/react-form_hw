@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+}
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.App-header {
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: auto;
+  color: #000;
+}
+.App-intro {
+  font-size: large;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.alert-danger {
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  right: 0;
+  z-index: 1030;
+  width: 40%;
+}
+.tooltip-valid {
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  margin: 10px;
+  padding: .75rem 1.25rem;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.14) !important;
+  animation: fade;
+  animation-duration: 500ms;
+}
+.card {
+  max-width: 500px;
+  margin: auto;
+}
+.custom-position {
+  position: absolute;
+}
+.github-logo {
+  max-width: 50px;
+}
